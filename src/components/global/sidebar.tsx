@@ -136,7 +136,7 @@ export default function Sidebar() {
                             icon={<HomeOutlinedIcon />}
                         />
                         {menuSections.map((section) => (
-                            <>
+                            <div key={section.name}>
                                 <Typography
                                     variant="h6"
                                     color={colors.grey[300]}
@@ -152,7 +152,7 @@ export default function Sidebar() {
                                         icon={<item.icon />}
                                     />
                                 ))}
-                            </>
+                            </div>
                         ))}
                     </Box>
                 </Menu>
