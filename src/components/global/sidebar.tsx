@@ -104,7 +104,7 @@ export default function Sidebar() {
                                     alt="profile-user"
                                     width={100}
                                     height={100}
-                                    src=""
+                                    src="https://res.cloudinary.com/jshadow/image/upload/v1674526533/profile_mq4cbb.jpg"
                                     style={{
                                         cursor: "pointer",
                                         borderRadius: "50%",

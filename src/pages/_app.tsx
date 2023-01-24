@@ -1,5 +1,4 @@
 import type { AppProps } from "next/app";
-import { useEffect } from "react";
 import { ColorModeContext, useMode } from "@/styles/theme";
 import { CssBaseline, ThemeProvider } from "@mui/material";
 import Sidebar from "@/components/global/sidebar";
