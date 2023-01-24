@@ -23,14 +23,14 @@ export default function Contacts() {
                     "& .MuiDataGrid-cell": { borderBottom: "none" },
                     "& .name-column--cell": { color: colors.greenAccent[300] },
                     "& .MuiDataGrid-columnHeaders": {
-                        backgroundColor: colors.bluAccent[700],
+                        backgroundColor: colors.blueAccent[700],
                         borderBottom: "none",
                     },
                     "& .MuiDataGrid-virtualScroller": {
                         backgroundColor: colors.primary[400],
                     },
                     "& .MuiDataGrid-footerContainer": {
-                        backgroundColor: colors.bluAccent[700],
+                        backgroundColor: colors.blueAccent[700],
                         borderTop: "none",
                     },
                     "& .MuiDataGrid-toolbarContainer .MuiButton-text": {
